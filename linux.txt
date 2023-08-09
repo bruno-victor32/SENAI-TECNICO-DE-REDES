@@ -1,0 +1,13 @@
+Instalar SSH
+
+apt-get install openssh-server
+nano /etc/ssh/sshd_config
+systemctl stop ssh
+systemctl restart ssh
+systemctl status ssh
+
+
+Comando para ver o ip da nossa máquina
+ip addr
+
+192.168.1.10

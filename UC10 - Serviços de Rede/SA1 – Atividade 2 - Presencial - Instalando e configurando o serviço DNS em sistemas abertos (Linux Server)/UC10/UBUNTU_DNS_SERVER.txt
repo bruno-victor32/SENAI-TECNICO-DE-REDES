@@ -1,0 +1,15 @@
+https://www.itzgeek.com/how-tos/linux/ubuntu-how-tos/set-up-dns-server-on-ubuntu-22-04.html
+
+https://computingforgeeks.com/configure-master-bind-dns-server-on-ubuntu/
+
+https://serverspace.io/pt/support/help/category/web-server/
+
+https://serverspace.io/pt/support/help/configure-bind9-dns-server-on-ubuntu/
+
+https://pt.wikibooks.org/wiki/Administra%C3%A7%C3%A3o_de_Redes_GNU/Linux/DNS:_Servi%C3%A7o_de_Nomes_de_Dom%C3%ADnio
+
+https://regular.sp.senai.br/course/view.php?id=3440
+
+
+domain name: yoda.local
+DNS server name: ns.yoda.local

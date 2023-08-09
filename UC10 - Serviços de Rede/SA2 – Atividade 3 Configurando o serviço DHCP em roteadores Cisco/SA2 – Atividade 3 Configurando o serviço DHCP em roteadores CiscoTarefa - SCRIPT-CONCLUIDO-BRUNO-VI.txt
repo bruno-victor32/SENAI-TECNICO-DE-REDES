@@ -1,0 +1,97 @@
+Configuração padrão
+SWITCH
+--------------------------------------
+
+configure terminal
+hostname TISW-ACME_Bruno_Victor
+service password-encryption
+enable secret class
+banner motd @
+##############################
+######## TISW-ACME !!!!!!! #######
+Access Denied! Only Depto. TI !!!!!
+############################## @
+
+ip domain-name sala213.net
+crypto key generate rsa
+2048
+
+ip ssh version 2
+
+ip ssh time-out 60
+ip ssh authentication-retries 2
+
+username yoda privilege 15 secret c3po
+username luke privilege 1 secret r2d2
+
+line vty 0 15
+login local
+transport input ssh
+
+exit
+
+line con 0
+login local
+
+exit
+ 
+interface vlan 1
+ip address 10.0.0.2 255.255.255.0
+no shutdow
+
+ip default-gateway 10.0.0.1
+
+end
+wr
+
+ROUTER
+=============================
+
+configure terminal
+hostname TIRT-ACME_Bruno_Victor
+service password-encryption	
+enable secret class
+banner motd @
+##############################
+######## TIRT-ACME !!! #######
+Access Denied! Only Depto. TI !
+############################## @
+
+ip domain-name sala213.net
+crypto key generate rsa
+2048
+
+ip ssh version 2
+
+ip ssh time-out 60
+ip ssh authentication-retries 2
+
+username yoda privilege 15 secret c3po
+username luke privilege 1 secret r2d2
+
+line vty 0 15
+login local
+transport input ssh
+
+exit
+
+line con 0
+login local
+
+exit
+
+line aux 0
+login local
+
+ip dhcp excluded-address 10.0.0.1 10.0.0.2 10.0.0.3
+ip dhcp pool UC10-SA2_ATIV3
+network 10.0.0.0 255.255.255.0
+default-router 10.0.0.1
+dns-server 10.0.0.3
+
+interface Gig0/0 
+ip address 10.0.0.1 255.255.255.0
+no shutdown
+
+end
+wr

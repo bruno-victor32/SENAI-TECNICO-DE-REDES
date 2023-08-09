@@ -1,0 +1,36 @@
+SERVIDOR FTP
+===================================================
+https://techexpert.tips/pt-br/iis-pt-br/servidor-ftp-instalacao-no-windows/
+https://dataunique.com.br/lab/como-configurar-servidor-ftp-windows-server-2012-r2/
+
+http://www.windows8dicas.com.br/windows8/windows-server-2012-instalando-e-configurando-ftp-parte-1/1129/
+
+https://www.aprendendoti.org/2014/07/instalando-e-configurando-o-recurso-ftp.html
+https://educoutinho.com.br/iis/como-configurar-o-ftp-no-iis-7-windows-server-2012/
+https://www.acl.com.br/knowledgebase/51/Como-Acessar-a-Area-FTP-via-Navegador-de-Internet.html
+
+==================================================
+SERVIDOR WEB
+==================================================
+https://techexpert.tips/pt-br/windows-pt-br/instalar-web-platform-installer-no-windows-server/
+
+https://pplware.sapo.pt/tutoriais/windows-server-2012-instalar-e-configurar-o-iis-8/
+
+https://learn.microsoft.com/pt-br/aspnet/web-forms/overview/deployment/configuring-server-environments-for-web-deployment/configuring-a-web-server-for-web-deploy-publishing-offline-deployment
+
+===================================================
+LINUX
+===================================================
+https://e-tinet.com/instalar-servidor-web-ubuntu/
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04
+
+https://ciksiti.com/pt/chapters/11452-install-and-configure-apache-web-server-on-ubuntu-22-04
+
+https://pplware.sapo.pt/linux/como-montar-um-servidor-ftp-no-ubuntu/
+
+https://itslinuxfoss.com/how-to-install-an-ftp-server-on-ubuntu-22-04/
+
+https://ubuntu.com/server/docs/service-ftp
+
+

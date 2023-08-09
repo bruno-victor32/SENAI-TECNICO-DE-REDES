@@ -1,0 +1,28 @@
+$TTL    86400
+@       IN       SOA      ns.jy0d4.local. root.jy0d4.local. (
+                           200101       ; Serial
+                           21600        ; Refresh
+                           3600         ; Retry
+                           604800       ; Expire
+                           86400  )     ; Negative Cache TTL
+;
+;Name Server Information
+
+@        IN      NS        ns.jy0d4.local.
+
+;IP address of Name Server
+
+ns      IN      A       10.107.202.126
+
+;Mail Exchanger
+
+@       IN     MX   10   mail.jy0d4.local.
+
+;A - Record HostName To Ip Address
+
+www     IN       A      10.107.202.126
+mail    IN       A      10.107.202.126
+
+;CNAME record
+
+ftp     IN      CNAME   www.jy0d4.local. 
